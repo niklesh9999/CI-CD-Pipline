@@ -2,7 +2,7 @@
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("🚀 CI/CD using GitHub Actions is Running!!!!!");
+    res.send("🚀 CI/CD using GitHub Actions is Running!!!!!!");
 });
 
 app.listen(3000, () => {
